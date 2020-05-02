@@ -1,0 +1,15 @@
+<h1 class="text-5xl">Todos</h1>
+
+<div data-controller="drag" data-drag-url="/todos/:id/move">
+  <% @todos.each do |todo| %>
+    <div data-id="<%= todo.id %>" class="my-4 p-4 w-full border border-gray-200 rounded shadow-md hover:bg-gray-100">
+	    <%= link_to todo, class: "hover:underline hover:cursor-pointer" do %>	    	
+	      <%= todo.description %>
+	    <% end %>
+    </div>
+  <% end %>
+</div>
+
+<br>
+
+<%= link_to 'New Todo', new_todo_path, class: "btn" %>
