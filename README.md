@@ -1,24 +1,5 @@
-# README
+# Drag and Drop - Toy App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository is the repository for a toy app used to follow episode 343 of the GoRails educational series, [Drag and Drop Sortable Lists with Rails and Stimulus JS](https://gorails.com/episodes/rails-drag-and-drop-sortable?autoplay=1). In it, Chris Oliver recreates a classic episode, instead using StimulusJS and ES6 syntax.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This application was created purely for practice purposes. 
